@@ -6,4 +6,4 @@ tmp/*
 
 dist
 
-__tests__/coverage/
+__tests__/coverage/*
