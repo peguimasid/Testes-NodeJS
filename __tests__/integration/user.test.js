@@ -22,7 +22,6 @@ describe('User', () => {
     expect(compareHash).toBe(true);
   });
 
-describe('User', () => {
   it('should be able to register', async () => {
     const response = await request(app)
       .post('/users')
